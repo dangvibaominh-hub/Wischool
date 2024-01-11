@@ -27,4 +27,38 @@
     background-color: #09b451;
     color: white;
 }
+@media only screen and (max-width: 1000px){
+    .desktop {
+        display: none !important;
+    }
+    .header-mobile { 
+        display: flex;
+        align-items: center;
+        justify-content: space-between !important;
+    }
+    .left{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .left img {
+        margin-left: 30px;
+
+    }
+    .header-mobile i{
+        font-size: 30px;
+    }
+    .header-mobile img {
+      width: 200px;
+    }
+    .header-mobile logo {
+        display: flex;
+        align-items: center;
+    }
+    .header-mobile .logo i {
+        margin-right: 20px;
+    }
+}
+    
+
 
