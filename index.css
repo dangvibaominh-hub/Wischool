@@ -27,6 +27,9 @@
     background-color: #09b451;
     color: white;
 }
+.header-mobile { 
+    display: none;
+}
 @media only screen and (max-width: 1000px){
     .desktop {
         display: none !important;
