@@ -22,6 +22,10 @@
     border: none;
     padding: 12px 24px;
     border-radius: 5px;
+    background-color: transparent;
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--main-color);
 }
 
 .login{
@@ -98,6 +102,42 @@ margin: 20px 0;
 font-weight: 500;
 text-decoration: none;
 font-size: 30px;
+ }
+ .background{
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(to top right,rgba(9, 180, 81, 0.1));
+ }
+ .background__content h1{
+    background-color: red;
+    width: 70%;
+    font-size: 60px;
+}
+.background__content{
+    flex-grow: 1;
+}
+.body{
+    padding: 0 100px;
+}
+ .background__image{
+    background-color: green;
+    width: 60%;
+ }
+ .background__image img{
+    width: 900px;
+ }
+  
+ @media only screen and(max-width:1000px) {
+    .background{
+        display: block;
+    }
+    .background__content { 
+        width: 100%; 
+     }
+     .background__image{
+        width: 100%;
+     }
  }
     
 
